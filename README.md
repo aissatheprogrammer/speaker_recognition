@@ -34,7 +34,7 @@ Pour la classe "autre", on se concentre sur le f1 score.
 
 # Solutions d'amélioration envisagées
 
-## Pour l'amélioration des métriques
+### Pour l'amélioration des métriques
 Le modèle actuel utilisé est une régression logistique.
 1ère piste :
 En utilisant un modèle plus complexe tel que RandomForest + une optimisation des hyper-paramètres, on peut espérer obtenir des meilleurs résultats.
@@ -47,12 +47,12 @@ On considére que l'amélioration est significative si les métriques augmentent
 Charge de travail estimée : 3 jours
 Charge effective : 4 jours
 
-## Pour l'ajout d'une couche de sécurité
+### Pour l'ajout d'une couche de sécurité
 Définir une passphrase à prononcer pour pouvoir s'identifier et intégrer un module de STT dans l'application qui permet de détecter la passphrase.
 Charge de travail estimée : 1/2 jour
 Charge effective : 1/2 jour
 
-## Pour l'amélioration de l'interface
+### Pour l'amélioration de l'interface
 Améliorer le CSS du front end (avec Tailwind)
 Non implémenté
 Utiliser un outil javascript pour enregistrer directement un audio sur l'application.

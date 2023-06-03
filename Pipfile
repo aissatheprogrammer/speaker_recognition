@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+sounddevice = "*"
+librosa = "*"
+scikit-learn = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+tensorflow = "*"
+keras = "*"
+flask = "*"
+tensorflow-hub = "*"
+tensorflow-io = "*"
+seaborn = "*"
+speechrecognition = "*"
+
+[dev-packages]
+notebook = "*"
+
+[requires]
+python_version = "3.9"
